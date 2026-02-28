@@ -2,6 +2,8 @@
 
 Ultra-wideband (UWB) ranging and localization firmware for STM32L476RG + Decawave DW1000 modules, with Python/Matlab host tools for live visualization and analysis.
 
+This project was completed as a course project at the Faculty of Electrical Engineering, University of Ljubljana.
+
 ## At a Glance
 
 - **Platform:** STM32 Nucleo-L476RG + DW1000
@@ -130,11 +132,11 @@ Setup:
 
 Edit these values before running host scripts:
 
-| File | Required edits |
-| --- | --- |
-| `DW_ranging_program/show_meas_in_rt.py` | `ser.port`, `NUM_OF_MEASUREMENTS`, `MAX_DISTANCE` |
+| File                                                              | Required edits                                                    |
+|-------------------------------------------------------------------|-------------------------------------------------------------------|
+| `DW_ranging_program/show_meas_in_rt.py`                           | `ser.port`, `NUM_OF_MEASUREMENTS`, `MAX_DISTANCE`                 |
 | `DW_measurement_program/Meritve/Matlab_code/serial_measurement.m` | serial port in `serial(...)`, optional sweep vectors, `start_ind` |
-| `DW_RTLS_program/Matlab_code/Matlab_rtls.m` | serial port in `serial(...)`, `anchor_pos` matrix |
+| `DW_RTLS_program/Matlab_code/Matlab_rtls.m`                       | serial port in `serial(...)`, `anchor_pos` matrix                 |
 
 ## Expected Serial/Host Behavior
 
