@@ -2,7 +2,13 @@
 
 Ultra-wideband (UWB) ranging and localization firmware for STM32L476RG + Decawave DW1000 modules, with Python/Matlab host tools for live visualization and analysis.
 
-This project was completed as a course project at the Faculty of Electrical Engineering, University of Ljubljana.
+This project was completed as a course project for Robotic mechanisms and Haptic Robots course at the Faculty of Electrical Engineering, University of Ljubljana.
+
+## Authors
+
+- **Jošt Prevc**
+- **Miha Mubi**
+
 
 ## At a Glance
 
