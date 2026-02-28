@@ -45,3 +45,52 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# =========================
+# Embedded / IDE Artifacts
+# =========================
+
+# Keil uVision user-specific files
+*.uvoptx
+*.uvguix.*
+*.uvgui.*
+
+# Keil/ARM build outputs
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.o
+*.obj
+*.lib
+*.dep
+*.crf
+*.lnp
+*.sct
+*.bak
+
+# STM32 / CubeIDE / CubeMX generated build folders
+**/Debug/
+**/Release/
+**/build/
+**/_build/
+**/MDK-ARM/RTE/
+
+# IDE/editor metadata
+.idea/
+.vscode/
+
+# Temporary, backup, and lock files
+*.tmp
+*.TMP
+*.temp
+*.swp
+*.swo
+*~
+.~lock.*#
+*.lock
+*.lck
+*.pid
